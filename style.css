@@ -32,6 +32,12 @@ ul {
 .row-one {
   display: flex;
   justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.left-row-one > h1, .left-row-one > p {
+  padding-bottom: 10px;
 }
 
 .row-two {
@@ -67,6 +73,8 @@ ul {
 
 .row-three {
   margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .gray {
@@ -107,4 +115,10 @@ button {
   border-radius: 10px;
   background-color: #3882F6;
   color: white;
+}
+
+.footer {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
